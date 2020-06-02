@@ -406,6 +406,29 @@ header.sticky .logo.sticky{
 }
 }
 
+@media screen and (max-width: 600px)  {
+  .btn-banner {
+      width: 155px ;
+      height: 65px ;
+      line-height: unset ;
+      padding: 10px 20px;
+      text-transform: uppercase;
+      color: #ffffff;
+      font-family: lato_r;
+      background: #1fd471;
+      border-radius: 100px;
+      display: inline-block;
+      text-align: center;
+      margin-top: 20px;
+      font-size: 15px;
+      position: absolute;
+      bottom: 30px;
+  }
+  .btn-banner img {
+    width: 18px !important;
+  }
+  }
+
 
 .btn-banner:hover{
       background: #10508c;
